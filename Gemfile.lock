@@ -3,6 +3,7 @@ PATH
   specs:
     attributes_dsl (0.2.1)
       equalizer (~> 0.0.11)
+      immutability (~> 0.0.5)
       transproc (~> 0.4.0)
 
 GEM
@@ -146,6 +147,8 @@ GEM
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
+    immutability (0.0.5)
+      ice_nine (~> 0.11.1)
     inch (0.8.0)
       pry
       sparkr (>= 0.2.0)
@@ -214,12 +217,12 @@ GEM
     parser (3.0.0.0)
       ast (~> 2.4.1)
     path_expander (1.1.0)
-    pry (0.13.1)
+    pry (0.14.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    pry-byebug (3.9.0)
+    pry-byebug (3.8.0)
       byebug (~> 11.0)
-      pry (~> 0.13.0)
+      pry (~> 0.10)
     pry-rescue (1.5.2)
       interception (>= 0.5)
       pry (>= 0.12.0)
@@ -338,9 +341,8 @@ DEPENDENCIES
   attributes_dsl!
   benchmark-ips
   fast_attributes
-  hexx-rspec (~> 0.5.2)
   hexx-suit (~> 2.3)
-  ice_nine (~> 0.11.1)
+  ice_nine (~> 0.11)
   kwattr
   virtus
 
