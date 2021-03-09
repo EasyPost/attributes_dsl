@@ -5,6 +5,6 @@ module AttributesDSL
 
   # The semantic version of the module.
   # @see http://semver.org/ Semantic versioning 2.0
-  VERSION = "0.2.2".freeze
+  VERSION = "0.2.3".freeze
 
 end # module AttributesDSL
